@@ -51,9 +51,9 @@ impl AccentPhrase {
                 .get("f2")
                 .unwrap()
                 .parse::<u32>()
-                .unwrap(),
-            moras.len() as u32,
-        );
+                .unwrap() as usize,
+            moras.len(),
+        ) as u32;
         let is_interrogative = moras[moras.len() - 1].vowel.contexts.get("f3").unwrap() == "1";
         Ok(Self {
             moras,
