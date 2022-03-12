@@ -1,0 +1,2 @@
+[workspace]
+members = ["voicevox-core-sys", "voicevox-core", "openjtalk-sys", "openjtalk", "voicevox-tts"]

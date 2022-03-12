@@ -1,0 +1,3 @@
+[submodule "openjtalk-sys/openjtalk/open_jtalk"]
+	path = openjtalk-sys/openjtalk/open_jtalk
+	url = https://github.com/VOICEVOX/open_jtalk.git

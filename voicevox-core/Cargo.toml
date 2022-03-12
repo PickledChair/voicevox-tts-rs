@@ -1,0 +1,11 @@
+[package]
+name = "voicevox-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+voicevox-core-sys = { path = "../voicevox-core-sys" }
+
+[dev-dependencies]
+npyz = "0.6"
+hound = "3.4.0"

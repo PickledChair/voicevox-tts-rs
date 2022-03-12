@@ -1,0 +1,10 @@
+[package]
+name = "voicevox-tts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openjtalk = { path = "../openjtalk" }
+once_cell = "1"
+regex = "1"
+voicevox-core = { path = "../voicevox-core" }

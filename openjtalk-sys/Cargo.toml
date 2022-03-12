@@ -1,0 +1,11 @@
+[package]
+name = "openjtalk-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+link-cplusplus = "1.0"
+
+[build-dependencies]
+bindgen = "0.59.2"
+cmake = "0.1"
