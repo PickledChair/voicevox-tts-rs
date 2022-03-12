@@ -44,7 +44,7 @@ impl OpenJTalk {
                 result.push(c_str.to_str().unwrap().to_string());
             }
         }
-        return result;
+        result
     }
 
     pub fn clear(&self) {
