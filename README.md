@@ -23,3 +23,8 @@ $ LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/path/to/onnxruntime/lib/" \
   <text>
 ```
 
+
+
+## License
+
+MIT License
