@@ -594,8 +594,8 @@ impl SynthesisEngine {
         }
 
         let mut last_p = cur.position();
-        last_p -= 8;
         let last_p_tmp = last_p;
+        last_p -= 8;
         cur.seek(SeekFrom::Start(4)).unwrap();
         for _ in 0..4 {
             cur.write(&[(last_p & 0xff) as u8]).unwrap();
