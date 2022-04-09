@@ -448,10 +448,11 @@ impl SynthesisEngine {
         }
         phoneme_length_list.push(post_phoneme_length);
         f0_list.push(0.0);
+        voiced.push(false);
         mean_f0 /= count as f32;
 
         if !mean_f0.is_nan() {
-            for i in 0..voiced.len() {
+            for i in 0..f0_list.len() {
                 if voiced[i] {
                     f0_list[i] = (f0_list[i] - mean_f0) * intonation_scale + mean_f0;
                 }
